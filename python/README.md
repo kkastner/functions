@@ -1,4 +1,4 @@
-##################################################################
+------------------------------------------------------------------
 buy_sell_stock.py
 
 Say you have an array for which the ith element is the price of a given stock on day i.
@@ -19,7 +19,27 @@ Output: 0
 Runtime complexity: O(n)
 (Additional) Space: O(1)
 
-##################################################################
+------------------------------------------------------------------
+missing_number.py
+
+Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.
+
+For example,
+Given nums = [0, 1, 3] return 2.
+
+Runtime complexity: O(n)
+(Additional) Space: O(1)
+
+
+------------------------------------------------------------------
+palindrome_linked_list.java
+
+Given a singly linked list, determine if it is a palindrome.
+
+Runtime complexity: O(n)
+(Additional) Space: O(1)
+
+------------------------------------------------------------------
 populating_next_right_pointers_per_node.py
 
 Given a binary tree
@@ -55,23 +75,4 @@ After calling your function, the tree should look like:
 Runtime complexity: O(n)
 (Additional) Space: O(1)
 
-##################################################################
-missing_number.py
-
-Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.
-
-For example,
-Given nums = [0, 1, 3] return 2.
-
-Runtime complexity: O(n)
-(Additional) Space: O(1)
-
-
-##################################################################
-palindrome_linked_list.java
-
-Given a singly linked list, determine if it is a palindrome.
-
-Runtime complexity: O(n)
-(Additional) Space: O(1)
-
+------------------------------------------------------------------
