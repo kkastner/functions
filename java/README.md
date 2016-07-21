@@ -25,3 +25,20 @@ n is length of string "s" and m is length of list of words "words"
 Runtime complexity: O(n^2 - n*m)
 (Additional) Space: O(m)
 
+##################################################################
+reverse_vowels.java
+
+Write a function that takes a string as input and reverse only the vowels of a string.
+
+Example 1:
+Given s = "hello", return "holle".
+
+Example 2:
+Given s = "leetcode", return "leotcede".
+
+Note:
+The vowels does not include the letter "y".
+
+Runtime complexity: O(n)
+(Additional) Space: O(1)
+

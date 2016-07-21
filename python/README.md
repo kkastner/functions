@@ -65,3 +65,13 @@ Given nums = [0, 1, 3] return 2.
 
 Runtime complexity: O(n)
 (Additional) Space: O(1)
+
+
+##################################################################
+palindrome_linked_list.java
+
+Given a singly linked list, determine if it is a palindrome.
+
+Runtime complexity: O(n)
+(Additional) Space: O(1)
+
