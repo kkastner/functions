@@ -206,6 +206,19 @@ Runtime complexity: push: O(n); pop,top,empty: O(1)
 (Additional) Space: O(1) not including the "stack" itself
 
 ------------------------------------------------------------------
+valid_anagram.cpp
+
+Given two strings s and t, write a function to determine if t is an anagram of s.
+
+For example,
+s = "anagram", t = "nagaram", return true.
+s = "rat", t = "car", return false.
+
+n is the length of the longest of strings s and t
+Runtime complexity: O(n)
+(Additional) Space: O(n)
+
+------------------------------------------------------------------
 word_pattern.cpp
 
 Given a pattern and a string str, find if str follows the same pattern.
