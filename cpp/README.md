@@ -119,6 +119,42 @@ Runtime complexity: O(n)
 (Additional) Space: O(n)
 
 ------------------------------------------------------------------
+excel_sheet_column_number.cpp
+
+Given a column title as appear in an Excel sheet, return its corresponding column number.
+
+For example:
+
+    A -> 1
+    B -> 2
+    C -> 3
+    ...
+    Z -> 26
+    AA -> 27
+    AB -> 28 
+
+n is the length of the given string
+Runtime complexity: O(n)
+(Additional) Space: O(1)
+------------------------------------------------------------------
+excel_sheet_column_title.cpp
+
+Given a positive integer, return its corresponding column title as appear in an Excel sheet.
+
+For example:
+
+    1 -> A
+    2 -> B
+    3 -> C
+    ...
+    26 -> Z
+    27 -> AA
+    28 -> AB 
+
+Runtime complexity: O(log_26(n))
+(Additional) Space: O(1) not including the result string
+
+------------------------------------------------------------------
 product_of_array_except_self.cpp
 
 Given an array of n integers where n > 1, nums, returns a vector output such that result[i] is equal to the product of all the elements of nums except nums[i].
